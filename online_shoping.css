@@ -1,0 +1,64 @@
+html{
+    background-color: rgba(68, 0, 255, 0.13);
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* universal operator */
+}
+#bookmark{
+    background-color: rgba(145, 50, 102, 0.753);
+    text-align: center;
+    color: rgb(222, 135, 135);
+    border: solid orangered 6px;
+ background-attachment: local;
+ padding: 9px;
+}
+h2{
+    color: rgb(212, 50, 21);
+    font-size:xx-large;
+    text-align: center;
+   border-bottom: 50px;
+   border: solid;
+   border-width: 51px;
+   border: 5px 77px 32px 55px;
+   margin-bottom:  15px;
+}
+.Description{
+    font-style:italic;
+    font-weight: 100;
+    border-bottom: yellow 50px;
+   
+    /* padding: 20px; */
+  /* background-color: brown */
+  ;
+    /* background-color: rgb(212, 50, 21) */
+}
+.img{
+    background-color:yellow;
+    image-rendering:crisp-edges;
+    border: image 5px;
+}
+#elec{
+    background-color: rgba(131, 206, 141, 0.644);
+    border: solid rgb(231, 192, 19) 3px;
+    border-radius: 20px;
+    padding: 5px 50px 10px 7px;
+   margin-bottom: 3px;
+   margin-top: 10px;
+}
+#cloth{
+    background-color: rgba(144, 165, 53, 0.555);
+    border-top: dotted red 5px;
+    padding-top: 7px;
+    border: solid rgba(216, 14, 14, 0.637) 3px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 3px;
+}
+#next{
+    background-color: rgba(93, 51, 133, 0.473);
+    border: dotted rgb(209, 13, 183) 7px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}

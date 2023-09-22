@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../cpp"
+		},
+		{
+			"path": "../collage sem 3 program"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../CLG GUI"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LOVE BABBAR.html"
+	}
+}
