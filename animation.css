@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(252, 252, 78, 0.56);
+    border: 5px solid black;
+   
+}
+.box{ width: 350px;
+    height: 80px;
+    background-color: blue;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+   color: rgb(232, 228, 228);
+   font-size: 60px;
+   text-align: center;
+    /* animation-name: rightMovement;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate; */
+    animation: rightMovement 5s ease-in-out 1ms infinite alternate none;
+   
+}
+.box2{
+    width: 350px;
+    height: 80px;
+    background-color: blue;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    color: rgb(232, 228, 228);
+    font-size: 60px;
+    text-align: center;
+    animation: box2 5s ease-in-out 1ms infinite alternate-reverse none; 
+}
+.circle{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border:3px darkcyan solid ;
+    background-color: blue;
+    text-align: center;
+    font-size: 40px;
+    color: wheat;
+    top: 9%;
+    left: 45%;
+   border-radius: 100px;
+   animation: circle 10s ease-in-out 0s infinite alternate-reverse none;
+}
+@keyframes rightMovement {
+    from {
+    top: 0;
+    left:0;
+    }
+    to {
+     top: 0;
+     left: 830px;
+    }
+}
+@keyframes box2 {
+    from{
+        top: 67vh;
+        left: 0;
+    }
+    to{
+        top: 67vh;
+        left: 830px;
+    }
+}
+@keyframes circle {
+    0%{
+        top: 10px;
+        left: 50px;
+    }
+    30%{
+        top:20px ;
+        left:500px;
+    }
+    60%{
+        top: 240px;
+        left: 900px;
+    }
+    100%{
+        top: 60px;
+        left: 800px;
+    }
+}

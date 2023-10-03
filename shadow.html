@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shadow</title>
+    <style>
+        .main{
+            border:2px solid greenyellow;
+            /* width: 500px; */
+            height: 500px;
+            background-color: rgba(0, 255, 255, 0.306);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 13px 14px 1500
+            px 170px rebeccapurple;
+        }
+        .box{
+           border: 1px solid rgb(99, 8, 8);
+           width: 200px;
+           height: 200px;
+           margin: 6px;
+           padding: 6px;
+           background-color: #fff;
+           /* box-shadow: 10px 12px  red ; */
+           /* box-shadow: -10px 9px green; */
+           /* box-shadow: 5px 6px 2px 12px yellow; */
+           box-shadow: inset 5px 16px 15px blueviolet,inset -16px -15px 16px green;
+        }
+        .box h2{
+            text-shadow: -1px 12px 1px rgb(182, 217, 28),1px -12px 1px red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <h2>JAI MA DURGE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatum possimus debitis? Labore, officia ullam. Veniam, perferendis! Rem, porro accusantium.</p>
+        </div>
+    </div>
+</body>
+</html>
