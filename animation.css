@@ -78,7 +78,7 @@
 }
 @keyframes circle {
     0%{
-        top: 10px;
+        top: 0px;
         left: 50px;
     }
     30%{
@@ -86,11 +86,11 @@
         left:500px;
     }
     60%{
-        top: 240px;
+        top: 340px;
         left: 900px;
     }
     100%{
         top: 60px;
-        left: 800px;
+        left: 400px;
     }
 }
